@@ -1,0 +1,141 @@
+
+body{
+  background-color: #02010a;
+  font-family: 'Dancing Script';
+}
+
+
+header {
+background-color: #5b7989;
+border-radius: 10px 10px 0px 0px;
+width: 100%;
+margin-bottom: 0px;
+padding-bottom: 0px;
+display: flex;
+flex-flow: row;
+justify-content: space-between;
+}
+
+header h1{
+  text-align: left;
+  color:#FFF;
+  text-shadow: 2px 2px #02010a;
+  float: left;
+}
+
+header nav li{
+  color:#FFF;
+  float: right;
+  padding: 7px;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  font-size: 23px;
+}
+
+nav ul li a{
+  text-decoration: none;
+}
+
+
+
+#imagen-central img{
+
+  background-color: #82c3a6;
+  display: block;
+  margin: auto;
+  box-shadow: 2px 2px 2px 2px #02010a;
+  width: 80%;
+  margin-top: 0px;
+}
+
+#imagen-central{
+  background-color:#82c3a6;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+#imagen-secundaria {
+  display: flex;
+  justify-content: center;
+  background-color: #d5c75f;
+  flex: 1 2 40%;
+  flex-flow: row wrap;
+}
+
+#imagensecundaria1{
+  order: 1;
+  box-shadow: 2px 2px 2px 2px #82c3a6;
+}
+
+#imagensecundaria2{
+  order: 2;
+  box-shadow: 2px 2px 2px 2px #82c3a6;
+  transition: transform 2s;
+
+}
+#imagen-secundaria img{
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+
+#imagen-secundaria a{
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+#img-sec1 img{
+  transition: width 1s, height 1s, transform 1s;
+  border: 2px;
+}
+#img-sec1 img:hover{
+   transform: rotate(10deg);
+}
+
+#imagensecundaria2:hover {
+  transform: translate(20px,-5px);
+}
+#img-sec1 a{
+  text-align: center;
+  margin-left: 49%;
+  margin-right: 49%;
+}
+#img-sec2 a{
+  margin-left:49%;
+  margin-right: 49%;
+}
+a:link {
+  color: white;5px
+}
+a:visited{
+  color: white;
+}
+
+footer{
+  border-radius: 0px 0px 10px 10px;
+  background-color: #C6d5c5;
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  text-align: center;
+}
+
+#contacto,#terminos,#redes-sociales,#derechos{
+  width: 25%;
+}
+#contacto a:link{
+  color: black;
+}
+
+#redes-sociales a:link{
+  color: black;
+}
+#redes-sociales a:visited{
+  color: black;
+}
+ footer h1{
+   font-size: 27px;
+ }
